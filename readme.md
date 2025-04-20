@@ -1,4 +1,3 @@
-```markdown
 # Cluster‑Driven Feasibility Analysis for Solar‑Powered EV Charging in India
 
 🚗🔋☀️  
