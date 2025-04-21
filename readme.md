@@ -96,10 +96,18 @@ Low EV adoption despite high solar potential—e.g., Telangana, Nagaland.
 ## 📁 Repo Structure
 
 ```
-├── data/                  # Cleaned CSVs & source references  
-├── notebooks/             # Main clustering and analysis notebook  
-├── outputs/               # Charts & strategy tables  
-├── README.md              # Project overview  
+├── datasets/                            # Raw and merged datasets  
+│   ├── raw/                             # Original data files  
+│   │   ├── 2011-IndiaState-0000.xlsx    # Data for India state-level 2011 info  
+│   │   ├── operationalChargers.csv      # Data on operational EV chargers  
+│   │   ├── state_solar_irradiance.csv  # Solar irradiance data by state  
+│   │   ├── statewiseev2020.xlsx         # EV data from 2020  
+│   │   ├── statewiseev2023.xlsx         # EV data from 2023  
+│   │   ├── statewisepop.xlsx           # Statewise population data  
+│   │   ├── mergeddata.xlsx             # Merged raw data (pre-cleaning)  
+├── 'Cluster-Driven Feasibility Analysis for Solar-Powered EV Charging in India.ipynb'  # Jupyter Notebook  
+├── readme.md                            # Project overview
+
 ```
 
 ---
